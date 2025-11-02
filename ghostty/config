@@ -1,6 +1,6 @@
 font-family = FiraMono Nerd Font
 font-style = medium
 font-style-bold = Bold 
-font-size = 14
-theme = ferra
+font-size = 18
+theme = Zenburned
 # custom-shader = shaders/cursor_smear.glsl

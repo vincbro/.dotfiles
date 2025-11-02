@@ -1,0 +1,55 @@
+/* bg: #404040 */
+/* border: #f0dfaf */
+/* text: #f0e4cf */
+window {
+  margin: 0px;
+  border: 1px solid #f0dfaf;
+  background-color: #404040;
+}
+
+#input {
+  margin: 5px;
+  border: 1px solid #f0dfaf;
+  color: #f0e4cf;
+  background-color: #404040;
+}
+
+#inner-box {
+  margin: 5px;
+  border: none;
+  background-color: #404040;
+}
+
+#outer-box {
+  margin: 5px;
+  border: none;
+  background-color: #404040;
+}
+
+#scroll {
+  margin: 0px;
+  border: none;
+}
+
+#text {
+  margin: 5px;
+  border: none;
+  color: #f0e4cf;
+}
+
+#entry.activatable #text {
+  color: #404040;
+}
+
+#entry>* {
+  color: #f0e4cf;
+}
+
+#entry:selected {
+  background-color: #f3eadb;
+}
+
+#entry:selected #text {
+  font-weight: bold;
+  color: #404040;
+}

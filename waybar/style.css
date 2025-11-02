@@ -5,8 +5,8 @@
 }
 
 window#waybar {
-	background: #2b292d;
-	color: #ffa07a;
+	background: #3f3f3f;
+	color: #f0dfaf;
 }
 
 .modules-left,
@@ -22,5 +22,5 @@ window#waybar {
 }
 
 #workspaces button.active {
-	color: #ffa07a;
+	color: #f0dfaf;
 }

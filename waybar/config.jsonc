@@ -1,7 +1,13 @@
 {
 	"layer": "top",
-	"modules-left": ["hyprland/workspaces", "hyprland/mode"],
-	"modules-center": ["custom/player"],
+	"position": "bottom",
+	"modules-left": [
+		"hyprland/workspaces",
+		"hyprland/mode"
+	],
+	"modules-center": [
+		"custom/player"
+	],
 	"modules-right": [
 		"network",
 		"cpu",
@@ -11,12 +17,10 @@
 		"battery",
 		"clock"
 	],
-
 	"hyprland/workspaces": {
 		"format": "[{icon}]",
 		"on-click": "activate"
 	},
-
 	"custom/player": {
 		"exec": "playerctl metadata --format '{{artist}} - {{title}}' 2>/dev/null || echo 'media'",
 		"interval": 1,
@@ -25,42 +29,30 @@
 		"on-scroll-up": "playerctl next",
 		"on-scroll-down": "playerctl previous"
 	},
-
-
-
 	"network": {
 		"format-wifi": "[ {essid}:{signalStrength}% |",
-			"format-ethernet": "[{ifname}",
-				"format-disconnected": "[no network"
+		"format-ethernet": "[{ifname}",
+		"format-disconnected": "[no network"
 	},
-
 	"cpu": {
 		"format": " CPU:{usage}% |",
 		"tooltip": false
 	},
-
 	"temperature": {
 		"critical-threshold": 80,
 		"format": " TEMP:{temperatureC}°C |"
 	},
-
 	"memory": {
 		"format": " MEM:{percentage}% |"
 	},
-
-
 	"pulseaudio": {
 		"format": " VOL:{volume}% |",
 	},
-
-
 	"battery": {
 		"format": " BAT:{capacity}% |",
 	},
-
-	"clock": { 
-		"format": " {:%H:%M:%OS} ]", 
+	"clock": {
+		"format": " {:%H:%M:%OS} ]",
 		"interval": 1,
 	},
-
 }
