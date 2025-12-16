@@ -17,6 +17,7 @@
           pkgs.taplo
           pkgs.hyprls
           pkgs.vscode-css-languageserver
+          pkgs.vscode-json-languageserver
         ];
 
         shellHook = ''

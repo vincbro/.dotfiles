@@ -11,7 +11,7 @@ window#waybar>box {
 window#waybar {
 	border: 2px solid #eb6f92;
 	border-radius: 10px;
-	background: rgba(35, 33, 54, 0.9);
+	background: rgba(25, 23, 36, 0.9);
 	color: #e0def4;
 }
 

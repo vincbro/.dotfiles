@@ -1,0 +1,78 @@
+[[language]]
+name = "c-sharp"
+scope = "source.cs"
+injection-regex = "cs"
+file-types = ["cs"]
+language-servers = ["csharp-ls"]
+
+[[language]]
+name = "razor"
+scope = "source.razor"
+injection-regex = "razor"
+file-types = ["razor"]
+language-servers = ["razor"]
+
+[language-server.razor]
+command = "rzls"
+
+[[language]]
+name = "rust"
+scope = "source.rust"
+injection-regex = "rs|rust"
+file-types = ["rs"]
+roots = ["Cargo.toml", "Cargo.lock"]
+shebangs = ["rust-script", "cargo"]
+auto-format = true
+language-servers = [ "rust-analyzer" ]
+indent = { tab-width = 4, unit = "    " }
+persistent-diagnostic-sources = ["rustc", "clippy"]
+
+[language-server.rust-analyzer]
+config = { checkOnSave = true, cargo = { allFeatures = true }, check = {command = "clippy"}}
+
+[[language]]
+name = "markdown"
+scope = "source.md"
+injection-regex = "md|markdown"
+file-types = ["md", "livemd", "markdown", "mdx", "mkd", "mkdn", "mdwn", "mdown", "markdn", "mdtxt", "mdtext", "workbook", { glob = "PULLREQ_EDITMSG" }]
+roots = [".marksman.toml"]
+language-servers = [ "markdown-oxide" ]
+indent = { tab-width = 2, unit = "  " }
+
+[language-server.markdown-oxide]
+command="markdown-oxide"
+
+[[language]]
+name = "html"
+scope = "text.html.basic"
+injection-regex = "html"
+file-types = ["html", "htm", "shtml", "xhtml", "xht", "jsp", "asp", "aspx", "jshtm", "volt", "rhtml", "cshtml", "razor"]
+block-comment-tokens = { start = "<!--", end = "-->" }
+language-servers = [ "vscode-html-language-server", "tailwindcss-ls" ]
+auto-format = true
+
+[[language]]
+name = "tsx"
+language-servers = [ "eslint", "emmet-ls", "typescript-language-server", "tailwindcss-ls" ]
+formatter = { command = "prettier", args = [ "--parser", "typescript" ] }
+auto-format = true
+
+[[language]]
+name = "typescript"
+language-servers = [ "eslint", "emmet-ls", "typescript-language-server", "tailwindcss-ls" ]
+formatter = { command = "prettier", args = [ "--parser", "typescript" ] }
+auto-format = true
+
+[[language]]
+name = "nix"
+file-types = ["nix"]
+indent = { tab-width = 4, unit = "    " }
+language-servers = ["nil"]
+formatter = { command = "nixfmt"}
+
+[language-server.tinymist]
+command = "tinymist"
+
+[[language]]
+name = "typst"
+language-servers = ["tinymist"]

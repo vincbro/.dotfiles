@@ -1,0 +1,12 @@
+inherits = "rose_pine"
+
+# "namespace" = { fg = "gold", bg = "default", modifiers = ["bold"] }
+# "type" = { fg = "foam", bg = "default", modifiers = ["bold"] }
+# "keyword"= { fg = "pine", bg ="default", modifiers = ["bold"] }
+
+"namespace" = { fg = "gold", modifiers = ["bold"] }
+"type" = { fg = "foam", modifiers = ["bold"] }
+"keyword"= { fg = "pine", modifiers = ["bold"] }
+
+"comment" = { fg = "text", bg = "overlay" }
+# "ui.background" ={}

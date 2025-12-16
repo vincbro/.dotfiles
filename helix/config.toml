@@ -1,0 +1,48 @@
+theme = "pine"
+
+[editor]
+bufferline = "always"
+true-color = true
+color-modes = true
+cursorline = true
+line-number = "relative"
+popup-border = "all"
+completion-trigger-len = 1
+completion-timeout = 50
+idle-timeout = 0
+
+[editor.search]
+smart-case = true
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name"]
+center = ["version-control"]
+right = ["diagnostics", "file-type"]
+
+[editor.indent-guides]
+render = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.inline-diagnostics]
+other-lines = "hint"
+cursor-line = "hint"
+
+[editor.lsp]
+display-messages = true
+# display-inlay-hints = true
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+"+" = ":format"
+"tab" = ":buffer-next"
+"S-tab" = ":buffer-previous"
+
+[keys.normal.space]
+x = ":buffer-close"
+X = ":buffer-close!"
