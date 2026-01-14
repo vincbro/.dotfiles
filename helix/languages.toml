@@ -30,6 +30,7 @@ persistent-diagnostic-sources = ["rustc", "clippy"]
 [language-server.rust-analyzer]
 config = { checkOnSave = true, cargo = { allFeatures = true }, check = {command = "clippy"}}
 
+
 [[language]]
 name = "markdown"
 scope = "source.md"
@@ -76,3 +77,6 @@ command = "tinymist"
 [[language]]
 name = "typst"
 language-servers = ["tinymist"]
+
+# [language-server.docker-langserver]
+# command = "docker-language-server"

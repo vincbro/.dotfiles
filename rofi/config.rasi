@@ -1,7 +1,8 @@
 @import "default"
 
 * {
-	bg: #191724;
+	clear: rgba(0, 0, 0, 0);
+	bg: rgba(25, 23, 36, 50%);
 	cur: #1f1d2e;
 	fgd: #e0def4;
 	cmt: #6e6a86;
@@ -58,7 +59,7 @@
 	padding: 1px ;
 }
 #element.normal.normal {
-	background-color: @background;
+	background-color: @clear;
 	text-color:       @foreground;
 }
 #element.normal.urgent {
@@ -82,7 +83,7 @@
 	text-color:       @background;
 }
 #element.alternate.normal {
-	background-color: @background;
+	background-color: @clear;
 	text-color:       @foreground;
 }
 #element.alternate.urgent {
