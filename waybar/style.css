@@ -1,6 +1,6 @@
 * {
 	font-family: "MonaspiceNe Nerd Font", monospace;
-	font-size: 15px;
+	font-size: 17.5px;
 	font-weight: bold;
 }
 
@@ -9,26 +9,25 @@ window#waybar>box {
 }
 
 window#waybar {
-	/* border: 2px solid #eb6f92; */
-	/* border-radius: 5px; */
-	background: rgba(25, 23, 36, 1);
-	/* background: rgba(0, 0, 0, 0); */
-	color: #e0def4;
+	background: rgba(0, 0, 0, 0);
+	color: #c5c9c5;
 }
 
 .modules-left,
 .modules-center,
 .modules-right {
 	margin: 0 30px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background: #181616;
 }
 
 #workspaces button {
 	padding: 0px;
 	border-radius: 0px;
-	color: #e0def4;
+	color: #c5c9c5;
 }
 
 #workspaces button.active {
-	/* color: #eb6f92; */
-	color: #31748f;
+	color: #c4746e;
 }

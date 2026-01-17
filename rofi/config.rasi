@@ -1,16 +1,15 @@
 @import "default"
 
 * {
-	clear: rgba(0, 0, 0, 0);
-	bg: rgba(25, 23, 36, 50%);
-	cur: #1f1d2e;
-	fgd: #e0def4;
+	bg: #181616;
+	cur: #c4746e;
+	fgd: #c5c9c5;
 	cmt: #6e6a86;
 	cya: #9ccfd8;
-	grn: #31748f;
+	grn: #c4746e;
 	ora: #ebbcba;
 	pur: #c4a7e7;
-	red: #eb6f92;
+	red: #c4746e;
 	yel: #f6c177;
 
 	font: "MonaspiceNe Nerd Font 12";
@@ -59,7 +58,7 @@
 	padding: 1px ;
 }
 #element.normal.normal {
-	background-color: @clear;
+	background-color: @background;
 	text-color:       @foreground;
 }
 #element.normal.urgent {
@@ -83,7 +82,7 @@
 	text-color:       @background;
 }
 #element.alternate.normal {
-	background-color: @clear;
+	background-color: @background;
 	text-color:       @foreground;
 }
 #element.alternate.urgent {
