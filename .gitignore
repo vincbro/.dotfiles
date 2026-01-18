@@ -1,2 +1,4 @@
 .direnv/
 helix/runtime/
+nest/output.txt
+nest/storage.txt

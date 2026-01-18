@@ -1,0 +1,15 @@
+themes {
+  kanagawa_dragon {
+    bg "#DCD7BA" // UNUSED
+    fg "#625e5a" // DARK B
+    white "#393836" // DARK A
+    black "#282727" // BG
+    red "#c4746e"
+    green "#c4746e" // SELECT
+    yellow "#e6c384"
+    blue "#7fb4ca"
+    magenta "#938aa9"
+    cyan "#7aa89f"
+    orange "#FFA066"
+  }
+}

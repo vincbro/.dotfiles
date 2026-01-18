@@ -2819,3 +2819,108 @@
 [2026-01-17 15:56:52.387204983 +01:00 INFO nest] Moved window 0x55ad2325e680 to 2
 [2026-01-17 15:56:53.003620728 +01:00 INFO nest] Tried to move window 0x55ad23255950 to 2 but a move could not be completed
 [2026-01-17 15:59:31.227173713 +01:00 INFO nest] Moved window 0x55ad23325900 to 4
+[2026-01-17 15:59:55.845515810 +01:00 INFO nest] Tried to move window 0x55ad23352810 to 3 but a move could not be completed
+[2026-01-17 15:59:55.845561988 +01:00 INFO nest] Tried to moved floating window 0x55ad23352810 to (958, 643) and resized to (643, 154)
+[2026-01-17 23:51:45.844685440 +01:00 INFO nest] Tried to move window 0x55ad233591d0 to 2 but a move could not be completed
+[2026-01-17 23:52:38.944155854 +01:00 INFO nest] Moved window 0x55ad2332bfb0 to 2
+[2026-01-17 23:52:39.593012500 +01:00 INFO nest] Tried to move window 0x55ad2324a070 to 2 but a move could not be completed
+[2026-01-17 23:52:43.820760086 +01:00 INFO nest] Tried to move window 0x55ad23352d70 to 2 but a move could not be completed
+[2026-01-17 23:52:43.820818828 +01:00 INFO nest] Tried to moved floating window 0x55ad23352d70 to (1067, 626) and resized to (426, 142)
+[2026-01-17 23:52:46.180869757 +01:00 INFO nest] Tried to move window 0x55ad23249a20 to 2 but a move could not be completed
+[2026-01-17 23:52:46.180962543 +01:00 INFO nest] Tried to moved floating window 0x55ad23249a20 to (1067, 626) and resized to (426, 142)
+[2026-01-17 23:52:48.554790237 +01:00 INFO nest] State saved to storage
+[2026-01-17 23:52:48.737654648 +01:00 INFO nest] Tried to move window 0x55ad233585e0 to 2 but a move could not be completed
+[2026-01-17 23:52:48.737726404 +01:00 INFO nest] Tried to moved floating window 0x55ad233585e0 to (1067, 626) and resized to (426, 142)
+[2026-01-17 23:52:58.555896616 +01:00 INFO nest] State saved to storage
+[2026-01-17 23:54:32.635865140 +01:00 INFO nest] Tried to move window 0x55ad23349190 to 5 but a move could not be completed
+[2026-01-17 23:54:35.194165274 +01:00 INFO nest] Tried to move window 0x55ad23249a40 to 5 but a move could not be completed
+[2026-01-17 23:55:04.508033739 +01:00 INFO nest] Moved window 0x55ad232515f0 to 2
+[2026-01-17 23:55:43.974049440 +01:00 INFO nest] Moved window 0x55ad23250f70 to 2
+[2026-01-17 23:55:53.256753426 +01:00 INFO nest] Tried to move window 0x55ad233750f0 to 2 but a move could not be completed
+[2026-01-17 23:55:58.580455059 +01:00 INFO nest] State saved to storage
+[2026-01-17 23:56:08.580884337 +01:00 INFO nest] State saved to storage
+[2026-01-17 23:56:18.582804458 +01:00 INFO nest] State saved to storage
+[2026-01-17 23:59:43.407795670 +01:00 INFO nest] Moved window 0x55ad23250e30 to 2
+[2026-01-18 00:01:48.269503252 +01:00 INFO nest] Moved window 0x55ad2336bf80 to 2
+[2026-01-18 00:03:55.822006461 +01:00 INFO nest] Moved window 0x55ad2336e8a0 to 2
+[2026-01-18 00:07:34.833271863 +01:00 INFO nest] Moved window 0x55ad23250bb0 to 2
+[2026-01-18 00:08:01.141918686 +01:00 INFO nest] Moved window 0x55ad2336e8a0 to 2
+[2026-01-18 00:08:05.163772003 +01:00 INFO nest] Tried to move window 0x55ad2332bfb0 to 2 but a move could not be completed
+[2026-01-18 00:08:05.804098114 +01:00 INFO nest] Tried to move window 0x55ad23374fc0 to 2 but a move could not be completed
+[2026-01-18 00:08:08.681488046 +01:00 INFO nest] State saved to storage
+[2026-01-18 00:08:10.743808922 +01:00 INFO nest] Moved window 0x55ad233708f0 to 2
+[2026-01-18 00:08:18.681841796 +01:00 INFO nest] State saved to storage
+[2026-01-18 00:25:15.523392398 +01:00 INFO nest] Tried to move window 0x55ad233708f0 to 2 but a move could not be completed
+[2026-01-18 00:27:39.292055994 +01:00 INFO nest] Tried to move window 0x55ad2332bfb0 to 2 but a move could not be completed
+[2026-01-18 00:27:39.567591449 +01:00 INFO nest] Tried to move window 0x55ad23374d70 to 2 but a move could not be completed
+[2026-01-18 00:27:40.116209609 +01:00 INFO nest] Tried to move window 0x55ad233708f0 to 2 but a move could not be completed
+[2026-01-18 00:27:48.850827901 +01:00 INFO nest] State saved to storage
+[2026-01-18 00:43:10.805543054 +01:00 INFO nest] Tried to move window 0x55ad233766e0 to 5 but a move could not be completed
+[2026-01-18 00:43:10.805628085 +01:00 INFO nest] Tried to moved floating window 0x55ad233766e0 to (113, 387) and resized to (293, 30)
+[2026-01-18 00:43:18.974917419 +01:00 INFO nest] State saved to storage
+[2026-01-18 01:00:49.477298051 +01:00 INFO nest] Tried to move window 0x55ad23376700 to 5 but a move could not be completed
+[2026-01-18 01:00:49.477408320 +01:00 INFO nest] Tried to moved floating window 0x55ad23376700 to (1030, 575) and resized to (500, 290)
+[2026-01-18 01:03:32.674458889 +01:00 INFO nest] Tried to move window 0x55ad233857d0 to 5 but a move could not be completed
+[2026-01-18 01:03:32.674552005 +01:00 INFO nest] Tried to moved floating window 0x55ad233857d0 to (1030, 575) and resized to (500, 290)
+[2026-01-18 01:03:34.860608504 +01:00 INFO nest] Tried to move window 0x55ad233857d0 to 5 but a move could not be completed
+[2026-01-18 01:03:34.860668317 +01:00 INFO nest] Tried to moved floating window 0x55ad233857d0 to (1030, 575) and resized to (500, 290)
+[2026-01-18 01:03:37.078439746 +01:00 INFO nest] Tried to move window 0x55ad23350c80 to 5 but a move could not be completed
+[2026-01-18 01:03:37.078497756 +01:00 INFO nest] Tried to moved floating window 0x55ad23350c80 to (1030, 575) and resized to (500, 290)
+[2026-01-18 01:03:39.140445628 +01:00 INFO nest] State saved to storage
+[2026-01-18 01:04:33.898010072 +01:00 INFO nest] Moved window 0x55ad2337afc0 to 3
+[2026-01-18 03:11:35.334194909 +01:00 INFO nest] Moved window 0x55ad23382b30 to 1
+[2026-01-18 03:12:11.591112936 +01:00 INFO nest] Moved window 0x55ad2332bfb0 to 1
+[2026-01-18 03:17:27.628048219 +01:00 INFO nest] Tried to move window 0x55ad233be300 to 2 but a move could not be completed
+[2026-01-18 03:17:28.310874043 +01:00 INFO nest] Tried to move window 0x55ad233bf5b0 to 2 but a move could not be completed
+[2026-01-18 03:17:30.326402284 +01:00 INFO nest] State saved to storage
+[2026-01-18 03:17:40.327784183 +01:00 INFO nest] State saved to storage
+[2026-01-18 16:25:45.130666906 +01:00 INFO nest] Tried to move window 0x55a1bf8d7ae0 to 1 but a move could not be completed
+[2026-01-18 19:03:49.295031773 +01:00 INFO nest] Moved window 0x55a1be2e3e80 to 4
+[2026-01-18 19:15:26.264272395 +01:00 INFO nest] Moved window 0x55a1bf61cc60 to 5
+[2026-01-18 19:15:28.331740354 +01:00 INFO nest] Moved window 0x55a1bf623290 to 2
+[2026-01-18 19:15:29.172896334 +01:00 INFO nest] Tried to move window 0x55a1bf99e5f0 to 2 but a move could not be completed
+[2026-01-18 19:15:30.633187040 +01:00 INFO nest] Moved window 0x55a1bf61f6c0 to 5
+[2026-01-18 19:15:30.633246363 +01:00 INFO nest] Tried to moved floating window 0x55a1bf61f6c0 to (1130, 523) and resized to (300, 350)
+[2026-01-18 19:15:31.708085388 +01:00 INFO nest] State saved to storage
+[2026-01-18 19:15:35.168212842 +01:00 INFO nest] Tried to move window 0x55a1bf9a6010 to 2 but a move could not be completed
+[2026-01-18 19:15:35.168261545 +01:00 INFO nest] Tried to moved floating window 0x55a1bf9a6010 to (1067, 627) and resized to (426, 142)
+[2026-01-18 19:15:41.709697839 +01:00 INFO nest] State saved to storage
+[2026-01-18 19:15:59.008336188 +01:00 INFO nest] Tried to move window 0x55a1bf9a6010 to 2 but a move could not be completed
+[2026-01-18 19:16:01.711995823 +01:00 INFO nest] State saved to storage
+[2026-01-18 19:16:11.713456395 +01:00 INFO nest] State saved to storage
+[2026-01-18 22:43:02.252364078 +01:00 INFO nest] Tried to move window 0x55a1bf8b9dc0 to 2 but a move could not be completed
+[2026-01-18 22:43:22.471036254 +01:00 INFO nest] Tried to move window 0x55a1bf580eb0 to 1 but a move could not be completed
+[2026-01-18 22:43:34.876257987 +01:00 INFO nest] Tried to move window 0x55a1bf8d70e0 to 1 but a move could not be completed
+[2026-01-18 22:51:25.112330673 +01:00 INFO nest] Moved window 0x55a1be2e4e70 to 2
+[2026-01-18 22:52:02.967434335 +01:00 INFO nest] Tried to move window 0x56256be5d6b0 to 5 but a move could not be completed
+[2026-01-18 22:52:02.967909888 +01:00 INFO nest] Tried to moved floating window 0x56256be5d6b0 to (108, 322) and resized to (293, 30)
+[2026-01-18 22:52:12.287122033 +01:00 INFO nest] State saved to storage
+[2026-01-18 22:52:28.960828378 +01:00 INFO nest] Moved window 0x56256be5fad0 to 4
+[2026-01-18 22:52:32.472911983 +01:00 INFO nest] Moved window 0x56256bdfa9c0 to 5
+[2026-01-18 22:52:42.290133935 +01:00 INFO nest] State saved to storage
+[2026-01-18 22:52:48.284386573 +01:00 INFO nest] Moved window 0x56256bedbb60 to 5
+[2026-01-18 22:52:48.284477225 +01:00 INFO nest] Tried to moved floating window 0x56256bedbb60 to (1130, 523) and resized to (300, 350)
+[2026-01-18 22:53:02.098410226 +01:00 INFO nest] Tried to move window 0x56256bdfb150 to 1 but a move could not be completed
+[2026-01-18 22:53:02.291823708 +01:00 INFO nest] State saved to storage
+[2026-01-18 22:54:06.985907121 +01:00 INFO nest] Tried to move window 0x56256bf49b40 to 2 but a move could not be completed
+[2026-01-18 22:55:48.091002525 +01:00 INFO nest] Tried to move window 0x56256bf48c00 to 2 but a move could not be completed
+[2026-01-18 22:56:55.062298988 +01:00 INFO nest] Tried to move window 0x56256bf04410 to 5 but a move could not be completed
+[2026-01-18 22:56:55.062380292 +01:00 INFO nest] Tried to moved floating window 0x56256bf04410 to (912, 597) and resized to (735, 245)
+[2026-01-18 22:57:03.880891520 +01:00 INFO nest] Moved window 0x56256bf87100 to 3
+[2026-01-18 22:57:04.127730853 +01:00 INFO nest] Tried to move window 0x56256bf4ed00 to 3 but a move could not be completed
+[2026-01-18 22:57:04.127759637 +01:00 INFO nest] Tried to moved floating window 0x56256bf4ed00 to (958, 643) and resized to (643, 154)
+[2026-01-18 22:57:05.199925921 +01:00 INFO nest::state] Program of type gcr-prompter got moved to workspace 4
+[2026-01-18 22:57:10.489435548 +01:00 INFO nest::state] Program of type google-chrome got moved to workspace 4
+[2026-01-18 22:57:12.321349068 +01:00 INFO nest] State saved to storage
+[2026-01-18 22:57:14.990436165 +01:00 INFO nest] Tried to move window 0x56256bfa1370 to 5 but a move could not be completed
+[2026-01-18 22:57:14.990489907 +01:00 INFO nest] Tried to moved floating window 0x56256bfa1370 to (912, 597) and resized to (735, 245)
+[2026-01-18 22:57:20.807656549 +01:00 INFO nest] Tried to move window 0x56256bf8d950 to 5 but a move could not be completed
+[2026-01-18 22:57:20.807704390 +01:00 INFO nest] Tried to moved floating window 0x56256bf8d950 to (912, 597) and resized to (735, 245)
+[2026-01-18 22:57:26.533697744 +01:00 INFO nest] Tried to move window 0x56256bf8d950 to 5 but a move could not be completed
+[2026-01-18 22:57:26.533750985 +01:00 INFO nest] Tried to moved floating window 0x56256bf8d950 to (1605, 79) and resized to (290, 28)
+[2026-01-18 22:57:28.764532810 +01:00 INFO nest] Tried to move window 0x56256bf6b530 to 5 but a move could not be completed
+[2026-01-18 22:57:28.764605167 +01:00 INFO nest] Tried to moved floating window 0x56256bf6b530 to (1605, 79) and resized to (290, 28)
+[2026-01-18 22:57:32.322790763 +01:00 INFO nest] State saved to storage
+[2026-01-18 22:57:48.634928082 +01:00 INFO nest] Tried to move window 0x56256bf8d950 to 2 but a move could not be completed
+[2026-01-18 22:59:18.169067685 +01:00 INFO nest] Tried to move window 0x56256bef3230 to 1 but a move could not be completed
+[2026-01-18 23:03:26.985453077 +01:00 INFO nest] Moved window 0x56256bedbb60 to 5
