@@ -1,10 +1,25 @@
 inherits = "kanagawa-dragon"
 
-"ui.bufferline" = { fg = "dragonGray", bg = "dragonBlack0", modifiers = ["dim"] }
+"ui.bufferline" = { fg = "dragonGray", bg = "dragonBlack0", modifiers = [
+  "dim",
+] }
 "keyword" = { fg = "dragonViolet", modifiers = ["italic"] }
 "constant.character.escape" = { fg = "dragonBlue2", modifiers = ["bold"] }
 "type" = { fg = "dragonAqua", modifiers = ["bold"] }
 "constant" = { fg = "dragonOrange", modifiers = ["bold"] }
 "function.macro" = { fg = "dragonRed", modifiers = ["italic"] }
 "label" = { fg = "dragonRed", modifiers = ["italic"] }
+"ui.virtual.inlay-hint" = { fg = "dragonGray", bg = "dragonBlack2", modifiers = [
+  "italic",
+  "dim"
+] }
+"ui.virtual.inlay-hint.parameter" = { fg = "dragonViolet", bg = "dragonBlack2", modifiers = [
+  "italic",
+  "dim"
+] }
+"ui.virtual.inlay-hint.type" = { fg = "dragonGray", bg = "dragonBlack2", modifiers = [
+  "italic",
+  "dim"
+] }
+
 # "namespace" = { fg = "dragonWhite", modifiers = ["bold"] }

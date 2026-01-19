@@ -9,7 +9,8 @@ line-number = "relative"
 popup-border = "all"
 completion-trigger-len = 1
 completion-timeout = 50
-idle-timeout = 0
+idle-timeout = 50
+scrolloff = 10
 
 [editor.search]
 smart-case = true
@@ -33,8 +34,8 @@ cursor-line = "hint"
 
 [editor.lsp]
 display-messages = true
-# display-inlay-hints = true
-
+auto-signature-help = true
+display-inlay-hints = true
 [editor.file-picker]
 hidden = false
 
@@ -42,6 +43,22 @@ hidden = false
 "+" = ":format"
 "tab" = ":buffer-next"
 "S-tab" = ":buffer-previous"
+# Turn inlay hints of when typing and show for reading
+i = ["insert_mode", ":set-option lsp.display-inlay-hints false"]
+I = ["insert_at_line_start", ":set-option lsp.display-inlay-hints false"]
+a = [
+  "move_char_right",
+  "insert_mode",
+  ":set-option lsp.display-inlay-hints false",
+]
+A = ["insert_at_line_end", ":set-option lsp.display-inlay-hints false"]
+o = ["open_below", ":set-option lsp.display-inlay-hints false"]
+O = ["open_above", ":set-option lsp.display-inlay-hints false"]
+
+[keys.insert]
+# Turn inlay hints off when typing and show for reading
+"esc" = ["normal_mode", ":set-option lsp.display-inlay-hints true"]
+
 
 [keys.normal.space]
 x = ":buffer-close"
