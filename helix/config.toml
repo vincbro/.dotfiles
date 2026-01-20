@@ -16,20 +16,28 @@ scrolloff = 10
 smart-case = true
 
 [editor.statusline]
-left = ["mode", "spinner", "file-name"]
-center = ["version-control"]
-right = ["diagnostics", "file-type"]
+left = ["mode", "spinner", "file-name", "file-modification-indicator"]
+center = ["version-control","workspace-diagnostics" ]
+right = ["diagnostics", "file-type","position-percentage", "total-line-numbers"]
 
 [editor.indent-guides]
 render = true
+character = "┆"
+skip-levels = 0
 
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
 select = "underline"
 
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+nbsp = "all"
+nnbsp = "all"
+newline = "none"
+
 [editor.inline-diagnostics]
-# other-lines = "error"
 cursor-line = "hint"
 
 [editor.lsp]
