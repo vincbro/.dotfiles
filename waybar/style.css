@@ -9,7 +9,8 @@ window#waybar>box {
 }
 
 window#waybar {
-	background: rgba(0, 0, 0, 0);
+	/* background: rgba(0, 0, 0, 0); */
+	background: #181616;
 	color: #c5c9c5;
 }
 
@@ -17,9 +18,13 @@ window#waybar {
 .modules-center,
 .modules-right {
 	margin: 0 30px;
-	padding: 5px 10px;
-	border-radius: 5px;
-	background: #181616;
+	/* padding: 5px 10px; */
+	/* border-radius: 5px; */
+	/* background: #181616; */
+}
+
+.modules-right>widget>* {
+	margin: 0 7.5px;
 }
 
 #workspaces button {

@@ -15,6 +15,12 @@ scrolloff = 10
 [editor.search]
 smart-case = true
 
+[editor.soft-wrap]
+enable = true
+max-wrap = 20 # increase value to reduce forced mid-word wrapping
+max-indent-retain = 0
+wrap-indicator = ""  # set wrap-indicator to "" to hide it
+
 [editor.statusline]
 left = ["mode", "spinner", "file-name", "file-modification-indicator"]
 center = ["version-control","workspace-diagnostics" ]
