@@ -7,7 +7,7 @@ tau = 604800.0
 
 [workspace.filter]
 mode = "Exclude"
-programs = ["", "gcr-prompter", "xdg-desktop-portal-gtk"]
+programs = ["", "gcr-prompter", "xdg-desktop-portal-gtk", "org.gnome.Calculator"]
 
 [floating]
 frequency = 5

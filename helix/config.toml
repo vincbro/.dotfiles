@@ -8,8 +8,9 @@ cursorline = true
 line-number = "relative"
 popup-border = "all"
 completion-trigger-len = 1
-completion-timeout = 50
-idle-timeout = 50
+continue-comments = false
+idle-timeout = 250
+completion-timeout = 5
 scrolloff = 10
 
 [editor.search]
@@ -17,9 +18,9 @@ smart-case = true
 
 [editor.soft-wrap]
 enable = true
-max-wrap = 20 # increase value to reduce forced mid-word wrapping
+max-wrap = 20
 max-indent-retain = 0
-wrap-indicator = ""  # set wrap-indicator to "" to hide it
+wrap-indicator = ""
 
 [editor.statusline]
 left = ["mode", "spinner", "file-name", "file-modification-indicator"]
@@ -30,11 +31,6 @@ right = ["diagnostics", "file-type","position-percentage", "total-line-numbers"]
 render = true
 character = "┆"
 skip-levels = 0
-
-[editor.cursor-shape]
-insert = "bar"
-normal = "block"
-select = "underline"
 
 [editor.whitespace.render]
 space = "all"
@@ -68,12 +64,32 @@ a = [
 A = ["insert_at_line_end", ":set-option lsp.display-inlay-hints false"]
 o = ["open_below", ":set-option lsp.display-inlay-hints false"]
 O = ["open_above", ":set-option lsp.display-inlay-hints false"]
+H = "goto_line_start"
+L = "goto_line_end"
+J = "page_cursor_half_down"
+K = "page_cursor_half_up"
+
+[keys.normal.space]
+x = ":buffer-close"
+X = ":buffer-close!"
+q = ":sh zellij run -c -f -x 10%% -y 10%% --width 80%% --height 80%% -- fx"
+
+[keys.normal.space.n]
+n = "@:sh touch "
+N = "@:sh touch <C-r>%<C-w>"
+d = "@:sh mkdir -p "
+D = "@:sh mkdir -p <C-r>%<C-w>"
+r = "@:sh rm <C-r>%"
+R = "@:sh rm <C-r>%<C-w>"
+m = "@:sh mv <C-r>% "
+p = "@:sh cp <C-r>% "
 
 [keys.insert]
 # Turn inlay hints off when typing and show for reading
 "esc" = ["normal_mode", ":set-option lsp.display-inlay-hints true"]
 
-
-[keys.normal.space]
-x = ":buffer-close"
-X = ":buffer-close!"
+[keys.select]
+H = "goto_line_start"
+L = "goto_line_end"
+J = "page_cursor_half_down"
+K = "page_cursor_half_up"

@@ -1,0 +1,6 @@
+[manager]
+linemode = "size"
+
+[filetree]
+folder = { fg = "blue", bold = true }
+file   = { fg = "white" }
