@@ -1,0 +1,5 @@
+inherits = "iceberg-dark"
+
+"ui.cursor.primary.insert" = { fg = "background_bg", bg = "orange" }
+"ui.cursor.primary.select" = { fg = "background_bg", bg = "purple" }
+"ui.cursor.primary" = { fg = "background_bg", bg = "background_fg" }

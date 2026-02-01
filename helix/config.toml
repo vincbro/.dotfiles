@@ -1,4 +1,4 @@
-theme = "kdragon"
+theme = "iceberg"
 
 [editor]
 bufferline = "always"
@@ -68,11 +68,13 @@ H = "goto_line_start"
 L = "goto_line_end"
 J = "page_cursor_half_down"
 K = "page_cursor_half_up"
+R = ":reload-all"
 
 [keys.normal.space]
 x = ":buffer-close"
 X = ":buffer-close!"
 q = ":sh zellij run -c -f -x 10%% -y 10%% --width 80%% --height 80%% -- fx"
+A = ":pipe-to ~/projects/hxai/hx-bridge.sh %{buffer_name} %{selection_line_start} %{selection_line_end}"
 
 [keys.normal.space.n]
 n = "@:sh touch "
@@ -82,6 +84,7 @@ D = "@:sh mkdir -p <C-r>%<C-w>"
 r = "@:sh rm <C-r>%"
 R = "@:sh rm <C-r>%<C-w>"
 m = "@:sh mv <C-r>% "
+M = "@:sh mv <C-r>% <C-r>%<C-w>"
 p = "@:sh cp <C-r>% "
 
 [keys.insert]
@@ -93,3 +96,7 @@ H = "goto_line_start"
 L = "goto_line_end"
 J = "page_cursor_half_down"
 K = "page_cursor_half_up"
+
+
+[keys.select.space]
+A = ":pipe-to ~/projects/hxai/hx-bridge.sh %{buffer_name} %{selection_line_start} %{selection_line_end}"

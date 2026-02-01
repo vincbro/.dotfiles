@@ -24,7 +24,7 @@ web_client {
 
 simplified_ui true
 default_layout "compact"
-theme "kanagawa_dragon"
+theme "iceberg-dark"
 pane_frames true
 copy_command "wl-copy"
 attach_to_session true

@@ -10,17 +10,14 @@ window#waybar>box {
 
 window#waybar {
 	/* background: rgba(0, 0, 0, 0); */
-	background: #181616;
-	color: #c5c9c5;
+	background: #161822;
+	color: #c7c9d1;
 }
 
 .modules-left,
 .modules-center,
 .modules-right {
 	margin: 0 30px;
-	/* padding: 5px 10px; */
-	/* border-radius: 5px; */
-	/* background: #181616; */
 }
 
 .modules-right>widget>* {
@@ -30,9 +27,9 @@ window#waybar {
 #workspaces button {
 	padding: 0px;
 	border-radius: 0px;
-	color: #c5c9c5;
+	color: #c7c9d1;
 }
 
 #workspaces button.active {
-	color: #c4746e;
+	color: #85a0c7;
 }

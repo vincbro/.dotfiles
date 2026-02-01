@@ -1,5 +1,5 @@
 [general]
-import = ["kanawaga_dragon.toml"]
+import = ["iceberg-dark.toml"]
 
 [window]
 decorations = "None"
