@@ -17,7 +17,7 @@ inherits = "kanagawa-dragon"
   "italic",
   "dim"
 ] }
-"ui.virtual.inlay-hint.type" = { fg = "dragonGray", bg = "dragonBlack2", modifiers = [
+"ui.virtual.inlay-hint.type" = { fg = "highlight_high", bg = "highlight_low", modifiers = [
   "italic",
   "dim"
 ] }

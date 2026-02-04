@@ -1,0 +1,7 @@
+profile laptop {
+	output eDP-1 enable
+}
+profile desk {
+	output eDP-1 disable
+	output HDMI-A-1 enable
+}

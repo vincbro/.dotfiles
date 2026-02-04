@@ -1,5 +1,5 @@
 [general]
-import = ["iceberg-dark.toml"]
+import = ["kanagawa-wave.toml"]
 
 [window]
 decorations = "None"

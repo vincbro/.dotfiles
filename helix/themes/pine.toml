@@ -1,12 +1,16 @@
 inherits = "rose_pine"
 
-# "namespace" = { fg = "gold", bg = "default", modifiers = ["bold"] }
-# "type" = { fg = "foam", bg = "default", modifiers = ["bold"] }
-# "keyword"= { fg = "pine", bg ="default", modifiers = ["bold"] }
-
 "namespace" = { fg = "gold", modifiers = ["bold"] }
 "type" = { fg = "foam", modifiers = ["bold"] }
-"keyword"= { fg = "pine", modifiers = ["bold"] }
+"keyword" = { fg = "pine", modifiers = ["bold"] }
 
-"comment" = { fg = "text", bg = "overlay" }
-# "ui.background" ={}
+"comment" = { fg = "text", modifiers = ["dim", "italic"] }
+
+"ui.cursor.primary.insert" = { fg = "base", bg = "love" }
+"ui.cursor.primary.select" = { fg = "base", bg = "iris" }
+"ui.cursor.primary" = { fg = "text", bg = "highlight_high" }
+
+"ui.virtual.inlay-hint.type" = { fg = "highlight_high", modifiers = ["italic"] }
+
+"function.macro" = { fg = "rose", modifiers = ["italic"] }
+"label" = { fg = "love", modifiers = ["italic"] }

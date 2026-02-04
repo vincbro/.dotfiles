@@ -19,6 +19,7 @@
           pkgs.vscode-css-languageserver
           pkgs.vscode-json-languageserver
           pkgs.lua-language-server
+          pkgs.kdlfmt
         ];
 
         shellHook = ''
