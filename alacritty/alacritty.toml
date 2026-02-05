@@ -1,8 +1,12 @@
+[env]
+TERM = "screen-256color"
+
 [general]
-import = ["kanagawa-wave.toml"]
+import = ["mellow.toml"]
 
 [window]
 decorations = "None"
+dynamic_padding = true
 
 [mouse]
 hide_when_typing = true

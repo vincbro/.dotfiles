@@ -1,4 +1,4 @@
-theme = "kanagawa"
+theme = "mello"
 
 [editor]
 bufferline = "always"
@@ -32,12 +32,12 @@ render = true
 character = "┆"
 skip-levels = 0
 
-[editor.whitespace.render]
-space = "all"
-tab = "all"
-nbsp = "all"
-nnbsp = "all"
-newline = "none"
+# [editor.whitespace.render]
+# space = "all"
+# tab = "all"
+# nbsp = "all"
+# nnbsp = "all"
+# newline = "none"
 
 [editor.inline-diagnostics]
 cursor-line = "hint"
