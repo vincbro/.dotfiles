@@ -1,8 +1,8 @@
-workspace "1"
-workspace "2"
-workspace "3"
-workspace "4"
-workspace "5"
+// workspace "1"
+// workspace "2"
+// workspace "3"
+// workspace "4"
+// workspace "5"
 
 input {
     keyboard {

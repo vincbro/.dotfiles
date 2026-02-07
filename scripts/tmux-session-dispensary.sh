@@ -13,7 +13,7 @@ if [[ $# -eq 1 ]]; then
 else
     selected=$(fd . "${DIRS[@]}" --type=dir --max-depth=1 --full-path --base-directory $HOME \
         | sed "s|^$HOME/||" \
-        | sk --margin 10% --color="bw")
+        | sk --margin 10%)
 
     [[ $selected ]] && selected="$HOME/$selected"
 fi
@@ -22,11 +22,9 @@ fi
 
 selected_name=$(basename "$selected" | tr . _)
 
-if [[ -z $TMUX ]]; then
-    echo "This script must be run inside a Tmux session."
-    exit 1
+if ! tmux has-session -t "$selected_name"; then
+    tmux new-session -ds "$selected_name" -c "$selected"
+    tmux select-window -t "$selected_name:1"
 fi
 
-if ! tmux select-window -t "$selected_name" 2> /dev/null; then
-    tmux new-window -c "$selected" -n "$selected_name"
-fi
+tmux switch-client -t "$selected_name"

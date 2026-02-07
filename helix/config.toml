@@ -68,7 +68,6 @@ H = "goto_line_start"
 L = "goto_line_end"
 J = "page_cursor_half_down"
 K = "page_cursor_half_up"
-R = ":reload-all"
 
 [keys.normal.space]
 x = ":buffer-close"
