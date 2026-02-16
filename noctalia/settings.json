@@ -36,16 +36,16 @@
     "bar": {
         "autoHideDelay": 500,
         "autoShowDelay": 150,
-        "backgroundOpacity": 0.93,
-        "barType": "framed",
-        "capsuleOpacity": 1,
+        "backgroundOpacity": 0.75,
+        "barType": "floating",
+        "capsuleOpacity": 0.75,
         "density": "comfortable",
         "displayMode": "always_visible",
-        "floating": false,
+        "floating": true,
         "frameRadius": 16,
         "frameThickness": 8,
         "hideOnOverview": false,
-        "marginHorizontal": 16,
+        "marginHorizontal": 8,
         "marginVertical": 8,
         "monitors": [
         ],
@@ -55,7 +55,7 @@
         ],
         "showCapsule": true,
         "showOutline": false,
-        "useSeparateOpacity": false,
+        "useSeparateOpacity": true,
         "widgets": {
             "center": [
                 {
@@ -284,7 +284,7 @@
     },
     "desktopWidgets": {
         "enabled": true,
-        "gridSnap": false,
+        "gridSnap": true,
         "monitorWidgets": [
             {
                 "name": "HDMI-A-1",
@@ -299,7 +299,7 @@
         "colorizeIcons": true,
         "deadOpacity": 0.6,
         "displayMode": "auto_hide",
-        "enabled": true,
+        "enabled": false,
         "floatingRatio": 1,
         "inactiveIndicators": false,
         "monitors": [
@@ -330,7 +330,7 @@
         "language": "",
         "lockOnSuspend": true,
         "lockScreenCountdownDuration": 10000,
-        "radiusRatio": 1,
+        "radiusRatio": 1.5,
         "scaleRatio": 1,
         "screenRadiusRatio": 1,
         "shadowDirection": "bottom_right",
@@ -527,9 +527,9 @@
         "bluetoothDetailsViewMode": "grid",
         "bluetoothHideUnnamedDevices": false,
         "boxBorderEnabled": true,
-        "fontDefault": "MonaspiceNe Nerd Font",
+        "fontDefault": "MonaspiceXe NF Medium",
         "fontDefaultScale": 1,
-        "fontFixed": "MonaspiceNe Nerd Font Mono",
+        "fontFixed": "MonaspiceNe NF",
         "fontFixedScale": 1,
         "networkPanelView": "wifi",
         "panelBackgroundOpacity": 0.93,

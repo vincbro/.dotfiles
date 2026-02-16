@@ -6,7 +6,7 @@ input {
             // rules ""
             // file "~/.config/keymap.xkb"
             layout "us,se"
-            options "compose:ralt"
+            options "compose:ralt,caps:escape"
         }
         // repeat-delay 600
         // repeat-rate 25
@@ -174,7 +174,7 @@ binds {
         spawn "noctalia-shell" "ipc" "call" "brightness" "increase"
     }
     XF86MonBrightnessDown allow-when-locked=true {
-        spawn "noctalia-shell" "ipc" "call" "brightness" "increase"
+        spawn "noctalia-shell" "ipc" "call" "brightness" "decrease"
     }
     Mod+O repeat=false {
         toggle-overview

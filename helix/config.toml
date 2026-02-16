@@ -45,7 +45,7 @@ cursor-line = "hint"
 [editor.lsp]
 display-messages = true
 auto-signature-help = true
-display-inlay-hints = true
+# display-inlay-hints = true
 [editor.file-picker]
 hidden = false
 
@@ -53,17 +53,6 @@ hidden = false
 "+" = ":format"
 "tab" = ":buffer-next"
 "S-tab" = ":buffer-previous"
-# Turn inlay hints of when typing and show for reading
-i = ["insert_mode", ":set-option lsp.display-inlay-hints false"]
-I = ["insert_at_line_start", ":set-option lsp.display-inlay-hints false"]
-a = [
-  "move_char_right",
-  "insert_mode",
-  ":set-option lsp.display-inlay-hints false",
-]
-A = ["insert_at_line_end", ":set-option lsp.display-inlay-hints false"]
-o = ["open_below", ":set-option lsp.display-inlay-hints false"]
-O = ["open_above", ":set-option lsp.display-inlay-hints false"]
 H = "goto_line_start"
 L = "goto_line_end"
 J = "page_cursor_half_down"
@@ -72,8 +61,7 @@ K = "page_cursor_half_up"
 [keys.normal.space]
 x = ":buffer-close"
 X = ":buffer-close!"
-q = ":sh zellij run -c -f -x 10%% -y 10%% --width 80%% --height 80%% -- fx"
-A = ":pipe-to ~/projects/hxai/hx-bridge.sh %{buffer_name} %{selection_line_start} %{selection_line_end}"
+A = [":pipe-to tmux popup -E ~/.dotfiles/scripts/hxai.sh %{buffer_name} %{selection_line_start} %{selection_line_end}", ":reload-all"]
 
 [keys.normal.space.n]
 n = "@:sh touch "
@@ -86,10 +74,6 @@ m = "@:sh mv <C-r>% "
 M = "@:sh mv <C-r>% <C-r>%<C-w>"
 p = "@:sh cp <C-r>% "
 
-[keys.insert]
-# Turn inlay hints off when typing and show for reading
-"esc" = ["normal_mode", ":set-option lsp.display-inlay-hints true"]
-
 [keys.select]
 H = "goto_line_start"
 L = "goto_line_end"
@@ -98,4 +82,4 @@ K = "page_cursor_half_up"
 
 
 [keys.select.space]
-A = ":pipe-to ~/projects/hxai/hx-bridge.sh %{buffer_name} %{selection_line_start} %{selection_line_end}"
+A = [":pipe-to tmux popup -E ~/.dotfiles/scripts/hxai.sh %{buffer_name} %{selection_line_start} %{selection_line_end}", ":reload-all"]
