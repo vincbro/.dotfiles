@@ -14,4 +14,3 @@ hide_when_typing = true
 [font]
 normal = { family = "MonaspiceNe Nerd Font", style = "Medium" }
 size = 20
-# offset = { x = 0, y = 1 }

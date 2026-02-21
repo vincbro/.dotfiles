@@ -61,7 +61,7 @@ K = "page_cursor_half_up"
 [keys.normal.space]
 x = ":buffer-close"
 X = ":buffer-close!"
-A = [":pipe-to tmux popup -E ~/.dotfiles/scripts/hxai.sh %{buffer_name} %{selection_line_start} %{selection_line_end}", ":reload-all"]
+A = [":pipe-to tmux popup -w 90%% -h 90%% -E ~/.dotfiles/scripts/hxai.sh %{buffer_name} %{selection_line_start} %{selection_line_end}", ":reload-all"]
 
 [keys.normal.space.n]
 n = "@:sh touch "
@@ -82,4 +82,4 @@ K = "page_cursor_half_up"
 
 
 [keys.select.space]
-A = [":pipe-to tmux popup -E ~/.dotfiles/scripts/hxai.sh %{buffer_name} %{selection_line_start} %{selection_line_end}", ":reload-all"]
+A = [":pipe-to tmux popup -w 90%% -h 90%% -E ~/.dotfiles/scripts/hxai.sh %{buffer_name} %{selection_line_start} %{selection_line_end}", ":reload-all"]

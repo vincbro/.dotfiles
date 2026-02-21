@@ -78,5 +78,12 @@ command = "tinymist"
 name = "typst"
 language-servers = ["tinymist"]
 
+# [[language]]
+# name = "sql"
+# language-servers = ["pgls"]
+
+# [language-server.pgls]
+# command = "postgres-language-server"
+# args = ["lsp-proxy"]
 # [language-server.docker-langserver]
 # command = "docker-language-server"

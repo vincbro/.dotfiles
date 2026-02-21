@@ -49,6 +49,7 @@ input {
 }
 output "HDMI-A-1" {
     mode "2560x1440@144"
+    variable-refresh-rate
     scale 1
     transform "normal"
 }
@@ -57,6 +58,19 @@ output "eDP-1" {
     scale 1
     transform "normal"
 }
+
+overview {
+    zoom 0.5
+    backdrop-color "#202020"
+
+    workspace-shadow {
+        softness 40
+        spread 10
+        offset x=0 y=10
+        color "#00000050"
+    }
+}
+
 layout {
     gaps 8
     center-focused-column "never"
@@ -98,8 +112,9 @@ layout {
 
     }
 }
-spawn-at-startup "noctalia-shell"
 spawn-at-startup "kanshi"
+spawn-sh-at-startup "swaybg -i ~/.dotfiles/assets/forest.jpg -m center"
+
 hotkey-overlay {
     skip-at-startup
 }
@@ -138,7 +153,7 @@ binds {
         spawn "alacritty"
     }
     Mod+E hotkey-overlay-title="Run an Application" {
-        spawn "noctalia-shell" "ipc" "call" "launcher" "toggle"
+        spawn "rofi" "-show" "drun"
     }
     Mod+S hotkey-overlay-title="Open Control Center" {
         spawn "noctalia-shell" "ipc" "call" "controlCenter" "toggle"
