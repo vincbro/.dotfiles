@@ -1,4 +1,4 @@
-theme = "mello"
+theme = "iceberg-dark"
 
 [editor]
 bufferline = "always"
@@ -32,22 +32,19 @@ render = true
 character = "┆"
 skip-levels = 0
 
-# [editor.whitespace.render]
-# space = "all"
-# tab = "all"
-# nbsp = "all"
-# nnbsp = "all"
-# newline = "none"
-
 [editor.inline-diagnostics]
 cursor-line = "hint"
 
 [editor.lsp]
 display-messages = true
 auto-signature-help = true
-# display-inlay-hints = true
 [editor.file-picker]
 hidden = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "underline"
+select = "underline"
 
 [keys.normal]
 "+" = ":format"

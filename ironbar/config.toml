@@ -1,0 +1,85 @@
+position = "top"
+height = 42
+
+
+# Workspace
+[[start]]
+type = "workspaces"
+
+# Clock
+[[center]]
+type = "clock"
+format = "%d/%m/%Y %H:%M"
+
+
+# Volume
+[[end]]
+type = "volume"
+format = "{icon} {percentage}%"
+sink_slider_orientation = "vertical"
+max_volume = 100
+truncate = "middle"
+
+[end.icons]
+volume_high = "󰕾"
+volume_medium = "󰖀"
+volume_low = "󰕿"
+muted = "󰝟"
+
+
+# Network 
+[[end]]
+type = "network_manager"
+icon_size = 24
+types_blacklist = ["loopback", "bridge"]
+
+[end.profiles.wired_disconnected]
+when = { type = "wired", state = "disconnected" }
+icon = "icon:network-wired-disconnected-symbolic"
+
+# Bluetooth
+[[end]]
+type = "bluetooth"
+icon_size = 32
+
+[end.format]
+not_found = ""
+disabled = " Off"
+enabled = " On"
+connected = " {device_alias}"
+connected_battery = " {device_alias} • {device_battery_percent}%"
+
+[end.popup]
+header = " Enable Bluetooth"
+disabled = "{adapter_status}"
+
+[end.popup.device]
+header = "{device_alias}"
+header_battery = "{device_alias}"
+footer = "{device_status}"
+footer_battery = "{device_status} • Battery {device_battery_percent}%"
+
+[end.adapter_status]
+not_found = "No Bluetooth adapters found"
+enabled = "Bluetooth enabled"
+enabling = "Enabling Bluetooth..."
+disabled = "Bluetooth disabled"
+disabling = "Disabling Bluetooth..."
+
+[end.device_status]
+connected = "Connected"
+connecting = "Connecting..."
+disconnected = "Disconnect"
+disconnecting = "Disconnecting..."
+
+# Battery
+[[end]]
+type = "battery"
+format = "{percentage}%"
+
+[end.profiles]
+warning = 20
+
+[end.profiles.critical]
+when = { percent = 5, charging = false }
+format = "[LOW] {percentage}%"

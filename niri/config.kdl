@@ -48,15 +48,24 @@ input {
  // warp-mouse-to-focus
 }
 output "HDMI-A-1" {
-    mode "2560x1440@144"
-    variable-refresh-rate
+    focus-at-startup
+    mode "2560x1440"
+    variable-refresh-rate on-demand=true
     scale 1
     transform "normal"
+    position x=0 y=0
+    hot-corners {
+        off
+    }
 }
 output "eDP-1" {
-    mode "1920x1080@60"
+    mode "1920x1080"
     scale 1
+    position x=0 y=5000
     transform "normal"
+    hot-corners {
+        off
+    }
 }
 
 overview {
@@ -112,9 +121,8 @@ layout {
 
     }
 }
-spawn-at-startup "kanshi"
-spawn-sh-at-startup "swaybg -i ~/.dotfiles/assets/forest.jpg -m center"
 
+// spawn-at-startup "env" "QT_QPA_PLATFORMTHEME=qt5ct" "noctalia-shell"
 hotkey-overlay {
     skip-at-startup
 }
@@ -144,16 +152,20 @@ block-out-from "screen-capture"
 window-rule {
     geometry-corner-radius 12
     clip-to-geometry true
+    open-on-output "HDMI-A-1"
 }
 binds {
     Mod+Shift+Slash {
         show-hotkey-overlay
     }
+    Mod+Shift+O {
+        focus-monitor "HDMI-A-1"
+    }
     Mod+Return hotkey-overlay-title="Open a Terminal" {
-        spawn "alacritty"
+        spawn "rio"
     }
     Mod+E hotkey-overlay-title="Run an Application" {
-        spawn "rofi" "-show" "drun"
+        spawn "noctalia-shell" "ipc" "call" "launcher" "toggle"
     }
     Mod+S hotkey-overlay-title="Open Control Center" {
         spawn "noctalia-shell" "ipc" "call" "controlCenter" "toggle"

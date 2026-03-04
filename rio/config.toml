@@ -1,0 +1,23 @@
+theme = "iceberg-dark"
+hide-mouse-cursor-when-typing = true
+
+env-vars = ["TERM=xterm-256color"]
+
+[fonts]
+size = 25
+family = "MonaspiceNe Nerd Font Mono"
+
+[navigation]
+mode = "plain" 
+
+[window]
+padding-x = 10
+padding-y = 10
+
+[renderer]
+backend = "Vulkan"
+disable-renderer-when-unfocused = true
+
+[cursor]
+shape = "underline"
+blinking = false
