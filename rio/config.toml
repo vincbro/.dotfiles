@@ -1,11 +1,32 @@
 theme = "iceberg-dark"
+
 hide-mouse-cursor-when-typing = true
 
 env-vars = ["TERM=xterm-256color"]
 
 [fonts]
 size = 25
-family = "MonaspiceNe Nerd Font Mono"
+hinting = false
+
+[fonts.regular]
+family = "JetBrainsMono Nerd Font"
+style = "normal"
+weight = 400
+
+[fonts.bold]
+family = "JetBrainsMono Nerd Font"
+style = "normal"
+weight = 700
+
+[fonts.italic]
+family = "JetBrainsMono Nerd Font"
+style = "italic"
+weight = 400
+
+[fonts.bold-italic]
+family = "JetBrainsMono Nerd Font"
+style = "italic"
+weight = 700
 
 [navigation]
 mode = "plain" 
@@ -21,3 +42,7 @@ disable-renderer-when-unfocused = true
 [cursor]
 shape = "underline"
 blinking = false
+
+[editor]
+program = "hx"
+args = []
