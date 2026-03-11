@@ -5,35 +5,31 @@ hide-mouse-cursor-when-typing = true
 env-vars = ["TERM=xterm-256color"]
 
 [fonts]
-size = 25
+size = 28
 hinting = false
 
 [fonts.regular]
-family = "JetBrainsMono Nerd Font"
+family = "Iosevka"
 style = "normal"
 weight = 400
 
 [fonts.bold]
-family = "JetBrainsMono Nerd Font"
+family = "Iosevka"
 style = "normal"
-weight = 700
+weight = 800
 
 [fonts.italic]
-family = "JetBrainsMono Nerd Font"
+family = "Iosevka"
 style = "italic"
 weight = 400
 
 [fonts.bold-italic]
-family = "JetBrainsMono Nerd Font"
+family = "Iosevka"
 style = "italic"
-weight = 700
+weight = 800
 
 [navigation]
 mode = "plain" 
-
-[window]
-padding-x = 10
-padding-y = 10
 
 [renderer]
 backend = "Vulkan"
