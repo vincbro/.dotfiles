@@ -11,7 +11,7 @@ input {
         // repeat-delay 600
         // repeat-rate 25
         // track-layout "global"
-        numlock
+        //numlock
     }
     touchpad {
         // off
